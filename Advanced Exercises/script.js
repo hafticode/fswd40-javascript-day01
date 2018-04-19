@@ -82,15 +82,16 @@ document.write(temp4+" "+temp5);*/
 
 var Vienna= "With the online map of Vienna you can easily navigate through Vienna.";
 
-/*function myFunction() {
-    Vienna;
-    document.getElementById("Vienna").innerHTML = str.repeat(2);
-}*/
+var res = Vienna.match(/Vienna/g);
 
-var temp6= V.word.match("Vienna");
+var res2 = new Array();
+
+res2 = res
+
+document.write(res2[0]+ "<br>" + res2[1]);
 
 
-console.log (temp6);
+
 
 
 
