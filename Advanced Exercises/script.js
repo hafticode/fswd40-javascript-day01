@@ -1,3 +1,8 @@
+document.write("<h1> Advanced Exercise 1 | Arrays Sum </h1>")
+
+document.write("<h2> Sum </h2>")
+
+
 //Exercise Sum 
 
 var a = 7;
@@ -24,7 +29,14 @@ var sum = a + b + Number(c) + Number(d) + e;
 
 console.log(sum);
 
+document.write(sum);
+
+document.write("<br>")
+
+
 //Exercise multiplication 
+
+document.write("<h2>  Multiplication </h2>")
 
 
 var f = '1';
@@ -39,14 +51,20 @@ var multi = Number(1) * g * 8 * Number(i);
 
 console.log(multi);
 
+document.write(multi);
+
 //Division 
 
-/*var div = multi/sum;
-document.write(div);*/
+document.write("<h2>  Division </h2>")
+
+var div = multi/sum;
+document.write(div);
 
 
 
 //Exercise 2
+
+document.write("<h1> Advanced Exercise 2 | Multidimensional Array </h1>")
 
 
 var numbers = [ 
@@ -61,6 +79,11 @@ var numbers = [
 
 
 document.write(numbers[1][1]+" " +numbers[4][2]+" " +numbers[5][3]+" " +numbers[2][3]+" " +numbers[2][1]);
+
+
+document.write("<h1> Advanced Exercise 3 | String Manipulation </h1>")
+
+document.write("<br>")
 
 //Exercise 3 String variation 
 
